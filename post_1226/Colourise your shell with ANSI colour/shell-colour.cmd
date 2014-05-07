@@ -1,3 +1,3 @@
-::File: C:\Terminal\cmd-scripts\shell-colour.cmd
+::File: C:\terminal\cmd-scripts\shell-colour.cmd
 @echo off
-C:\Terminal\ansicon\x64\ansicon.exe
+C:\terminal\ansicon\x64\ansicon.exe
