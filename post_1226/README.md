@@ -1,4 +1,5 @@
 Create A Better Windows Command-line Prompt
+==========
 
 This is the code used for The Developer's Tidbits article "Create A Better Windows Command-line Prompt" that was published on 21 May 2014.
 
