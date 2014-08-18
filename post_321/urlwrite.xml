@@ -12,9 +12,9 @@
 		<name>Disable Railo</name>
 		<from>^/railo-context/admin/(.*)$</from>
 		<to>null</to>
-		<!-- HTTP Status code 403 equals forbidden -->
-		<!-- You could also change it to 401 = Unauthorized or 404 = Not found -->
-		<set type="status">403</set>
+		<!-- HTTP Status code 403 equals Not found -->
+		<!-- You could also change it to 401 = Unauthorized or 403 = forbidden -->
+		<set type="status">404</set>
 	</rule>
 
 </urlrewrite>
