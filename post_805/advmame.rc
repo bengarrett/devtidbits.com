@@ -1,0 +1,13 @@
+# Change the following settings.
+
+device_mouse none
+misc_freeplay yes
+misc_quiet yes
+record_sound no
+record_video no
+
+# If the Pi is connected to a HDMI TV or monitor add the following to your settings.
+device_video_clock 5 - 50 / 15.62 / 50 ; 5 - 50 / 15.73 / 60
+
+# For Pi’s using a HDMI to VGA converter this setting worked well for me.
+device_video_clock 5 - 50 / 15.75 / 50

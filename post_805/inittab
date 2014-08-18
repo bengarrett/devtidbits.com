@@ -1,0 +1,2 @@
+1:2345:respawn:/sbin/getty -a root --noclear 38400 tty1
+#1:2345:respawn:/sbin/getty --noclear 38400 tty1

@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Alias definitions.
+# You may want to put all your additions in here.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+# Enable color support
+if [ -x /usr/bin/dircolors ]; then
+test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+fi
+
+# Extra ls aliases
+alias ll='ls -FAl'
+alias la='ls -FA'
+alias l='ls -FAoh'
+
+# Raspberry Pi Aliases
+alias raspi-audio="/usr/bin/alsamixer"
+alias raspi-cpu="/bin/cat /proc/cpuinfo"
+alias raspi-disk="/bin/df -h --total"
+alias raspi-firmware="/opt/vc/bin/vcgencmd version"
+alias raspi-mem="/usr/bin/free -th"
+alias raspi-ip="/bin/hostname -I"
+alias raspi-ping="/bin/ping -c 3 http://www.google.com"
+alias raspi-reboot="/sbin/reboot"
+alias raspi-shutdown="/sbin/shutdown -Ph 0"
+alias raspi-update="/usr/bin/apt-get update -y;/usr/bin/apt-get upgrade -y"
+alias raspi-version="/bin/cat /proc/version"
