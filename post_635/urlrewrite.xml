@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE urlrewrite
+    PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+    "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+
+	<!-- Pretty URL, SES Friendly URL Pass-Through -->
+	<rule enabled="true">
+		<name>Generic Pretty URLs Pass-through</name>
+		<condition type="request-uri" operator="notequal">^/(index.cfm|robots.txt|osd.xml|flex2gateway|cfide|cfformgateway|railo-context|admin-context|files|images|jrunscripts|javascripts|miscellaneous|stylesheets)</condition>
+		<from>^/(.*)$</from>
+		<to type="passthrough">/index.cfm/$1</to>
+	</rule>
+
+	<!-- Permanent Redirection -->
+	<rule enabled="true">
+		<name>Permanent redirect example</name>
+		<from>^/documents.html(.*)$</from>
+		<to type="permanent-redirect" last="true">/file/list/document</to>
+	</rule>
+
+	<!-- Selective HTTPS Enforcement -->
+	<rule enabled="false">
+		<name>Force HTTPS example</name>
+		<note>Automatically redirects adminstration requests to a secure protocol.</note>
+		<condition type="scheme" operator="equal">^http$</condition>
+		<from>^/CFIDE/administrator/(.*)$</from>
+		<to type="permanent-redirect" last="true">https://www.example.com/CFIDE/administrator/$1</to>
+	</rule>
+
+	<!-- Railo HTTPS Enforcement railo-content. -->
+	<rule enabled="false">
+		<name>Force HTTPS example</name>
+		<note>Automatically redirects adminstration requests to a secure protocol.</note>
+		<condition type="scheme" operator="equal">^http$</condition>
+		<from>^/railo-context/admin/(index|web|server).cfm$</from>
+		<to type="permanent-redirect" last="true">https://www.example.com/railo-context/admin/$1.cfm</to>
+	</rule>
+
+	<!-- Conditions Based On URL Parameters -->
+	<rule enabled="true">
+		<name>Selective fruit example redirect</name>
+		<condition type="parameter" name="fruit" operator="equal">(apple|kiwi|orange)</condition>
+		<from>^/list.html(.*)$</from>
+		<to type="permanent-redirect" last="true">list/fruit/%{parameter:fruit}</to>
+	</rule>
+
+</urlrewrite>

@@ -1,0 +1,38 @@
+<!-- Add the following code to web.xml anywhere contained within the <web-app></web-app> tags. -->
+<web-app>
+
+	<!-- URL ReWriter -->
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+		<!-- set the amount of seconds the conf file will be checked for reload
+		can be a valid integer (0 denotes check every time,
+		empty/not set denotes no reload check) -->
+		<init-param>
+			<param-name>confReloadCheckInterval</param-name>
+			<param-value>0</param-value>
+		</init-param>
+		<!-- you can disable status page if desired
+		can be: true, false (default true) -->
+		<init-param>
+			<param-name>statusEnabled</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>logLevel</param-name>
+			<param-value>DEBUG</param-value>
+		</init-param>
+		<init-param>
+			<param-name>statusEnabledOnHosts</param-name>
+			<param-value>localhost</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	
+</web-app>
