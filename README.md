@@ -4,7 +4,7 @@ The Developer's Tidbits Repository
 This is a dump for code snippets and samples that are used in articles on my website [The Developer's Tidbits - Helpful tips for random problems](http://www.devtidbits.com/).
 
 * `post_1226`
-  * *[Create A Better Windows Command-line Prompt](http://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)*
+  * *[Make your Windows Command Prompt, Linux-like](http://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)* *(previously 'Create A Better Windows Command-line Prompt')*
 
 * `post_805` 
   * *[MAME Arcade Game Fun With A Raspberry Pi](http://devtidbits.com/2012/11/26/mame-arcade-game-fun-with-a-raspberry-pi/)*
