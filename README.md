@@ -3,6 +3,9 @@ The Developer's Tidbits Repository
 
 This is a dump for code snippets and samples that are used in articles on my website [The Developer's Tidbits - Helpful tips for random problems](http://www.devtidbits.com/).
 
+* `post_1413`
+  * *[Secure and harden Apache Tomcat’s SSL/TLS](http://devtidbits.com/2015/05/13/secure-and-harden-apache-tomcats-ssltls/)*
+
 * `post_1226`
   * *[Make your Windows Command Prompt, Linux-like](http://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)* *(previously 'Create A Better Windows Command-line Prompt')*
 
