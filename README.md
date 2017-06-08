@@ -4,7 +4,7 @@ The Developer's Tidbits Repository
 This is a dump for code snippets and samples that are used in articles on my website [The Developer's Tidbits - Helpful tips for random problems](http://www.devtidbits.com/).
 
 * `post_3905`
-  * *[Run Ubuntu 16.04 on Windows 10 Creators Update](https://devtidbits.com/2017/06/08/run-ubuntu-16-04-on-windows-10-creators-update/)
+  * *[Run Ubuntu 16.04 on Windows 10 Creators Update](https://devtidbits.com/2017/06/08/run-ubuntu-16-04-on-windows-10-creators-update/)*
 
 * `post_3622`
   * *[Assignment to read-only properties is not allowed in strict mode](https://devtidbits.com/2016/06/12/assignment-to-read-only-properties-is-not-allowed-in-strict-mode/)*
