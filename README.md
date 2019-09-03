@@ -1,31 +1,45 @@
-The Developer's Tidbits Repository
-==========
+# The Developer's Tidbits
 
-This is a dump for code snippets and samples that are used in articles on my website [The Developer's Tidbits - Helpful tips for random problems](http://www.devtidbits.com/).
+## Sample code repository
 
-* `post_3905`
-  * *[Run Ubuntu 16.04 on Windows 10 Creators Update](https://devtidbits.com/2017/06/08/run-ubuntu-16-04-on-windows-10-creators-update/)*
+![GitHub](https://img.shields.io/github/license/bengarrett/devtidbits.com?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/bengarrett/devtidbits.com?style=for-the-badge)
 
-* `post_3622`
-  * *[Assignment to read-only properties is not allowed in strict mode](https://devtidbits.com/2016/06/12/assignment-to-read-only-properties-is-not-allowed-in-strict-mode/)*
+![Coffee](https://img.shields.io/badge/☕-Finding%20this%20useful%2C%20why%20not%20buy%20me%20a%20coffee%3F-blue?style=flat-square&link=https://www.buymeacoffee.com/4rtEGvUIY&link=https://www.buymeacoffee.com/4rtEGvUIY)
 
-* `post_1413`
-  * *[Secure and harden Apache Tomcat’s SSL/TLS](http://devtidbits.com/2015/05/13/secure-and-harden-apache-tomcats-ssltls/)*
+This repository is a dump for code snippets and samples that in use by the articles at my website [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
 
-* `post_1226`
-  * *[Make your Windows Command Prompt, Linux-like](http://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)* *(previously 'Create A Better Windows Command-line Prompt')*
+- `post_3905`
 
-* `post_805`
-  * *[MAME Arcade Game Fun With A Raspberry Pi](http://devtidbits.com/2012/11/26/mame-arcade-game-fun-with-a-raspberry-pi/)*
+  - _[Run Ubuntu 16.04 on Windows 10 Creators Update](https://devtidbits.com/2017/06/08/run-ubuntu-16-04-on-windows-10-creators-update/)_
 
-* `post_635`
-  * *[Tuckey URLRewrite How-To](http://devtidbits.com/2011/11/28/tuckey-urlrewrite-how-to/)*
+- `post_3622`
 
-* `post_590`
-  * *[Cygwin Walkthrough and Beginners Guide - Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?](http://devtidbits.com/2011/07/01/cygwin-walkthrough-and-beginners-guide-is-it-linux-for-windows-or-a-posix-compatible-alternative-to-powershell/)*
+  - _[Assignment to read-only properties is not allowed in strict mode](https://devtidbits.com/2016/06/12/assignment-to-read-only-properties-is-not-allowed-in-strict-mode/)_
 
-* `post_321`
-  * *[Secure Railo Administration (railo-context) On Your Railo Server.](http://devtidbits.com/2010/05/27/hide-block-and-secure-railo-context-from-your-railo-tomcat-jboss-resin-servers/)*
+- `post_1413`
 
-* `post_42`
-  * *[Remove or Clean High / Extended ASCII Characters in ColdFusion for XML Safeness](http://devtidbits.com/2008/03/11/remove-or-clean-high-extended-ascii-characters-in-coldfusion-for-xml-safeness/)*
+  - _[Secure and harden Apache Tomcat’s SSL/TLS](https://devtidbits.com/2015/05/13/secure-and-harden-apache-tomcats-ssltls/)_
+
+- `post_1226`
+
+  - _[Make your Windows Command Prompt, Linux-like](https://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)_ _(previously 'Create A Better Windows Command-line Prompt')_
+
+- `post_805`
+
+  - _[MAME Arcade Game Fun With A Raspberry Pi](https://devtidbits.com/2012/11/26/mame-arcade-game-fun-with-a-raspberry-pi/)_
+
+- `post_635`
+
+  - _[Tuckey URLRewrite How-To](https://devtidbits.com/2011/11/28/tuckey-urlrewrite-how-to/)_
+
+- `post_590`
+
+  - _[Cygwin Walkthrough and Beginners Guide - Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?](https://devtidbits.com/2011/07/01/cygwin-walkthrough-and-beginners-guide-is-it-linux-for-windows-or-a-posix-compatible-alternative-to-powershell/)_
+
+- `post_321`
+
+  - _[Secure Railo Administration (railo-context) On Your Railo Server.](https://devtidbits.com/2010/05/27/hide-block-and-secure-railo-context-from-your-railo-tomcat-jboss-resin-servers/)_
+
+- `post_42`
+  - _[Remove or Clean High / Extended ASCII Characters in ColdFusion for XML Safeness](https://devtidbits.com/2008/03/11/remove-or-clean-high-extended-ascii-characters-in-coldfusion-for-xml-safeness/)_
