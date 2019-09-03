@@ -1,11 +1,11 @@
 # The Developer's Tidbits
 
-## Sample code repository
-
 ![GitHub](https://img.shields.io/github/license/bengarrett/devtidbits.com?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bengarrett/devtidbits.com?style=for-the-badge)
 
-![Coffee](https://img.shields.io/badge/☕-Finding%20this%20useful%2C%20why%20not%20buy%20me%20a%20coffee%3F-blue?style=flat-square&link=https://www.buymeacoffee.com/4rtEGvUIY&link=https://www.buymeacoffee.com/4rtEGvUIY)
+### ☕ [Finding this useful, why not buy me a coffee?](https://www.buymeacoffee.com/4rtEGvUIY)
+
+## Sample code repository
 
 This repository is a dump for code snippets and samples that in use by the articles at my website [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
 
