@@ -3,7 +3,7 @@
 ![GitHub](https://img.shields.io/github/license/bengarrett/devtidbits.com?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bengarrett/devtidbits.com?style=for-the-badge)
 
-#### ☕ [Finding this useful, why not buy me a coffee?](https://www.buymeacoffee.com/4rtEGvUIY)
+#### [If you enjoy my content, consider buying me a cup of coffee?](https://www.buymeacoffee.com/4rtEGvUIY) ☕
 
 ## Sample code repository
 
