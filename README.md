@@ -9,6 +9,10 @@
 
 This repository is a dump for code snippets and samples that in use by the articles at my website [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
 
+- `post_5017`
+
+  - _[Customise WordPress on Docker](https://devtidbits.com/?p=5017)_
+
 - `post_3905`
 
   - _[Run Ubuntu 16.04 on Windows 10 Creators Update](https://devtidbits.com/2017/06/08/run-ubuntu-16-04-on-windows-10-creators-update/)_

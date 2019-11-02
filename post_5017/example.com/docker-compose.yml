@@ -1,0 +1,67 @@
+version: "3.7"
+
+services:
+  wordpress:
+    image: wordpress
+    labels:
+      - "com.example.description=Example WordPress site"
+    restart: always
+    ports:
+      - target: 80
+        published: 8080
+        protocol: tcp
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: myblogdb
+      WORDPRESS_DB_USER: wpinternal
+      WORDPRESS_DB_PASSWORD: stencil-running-cargo-savage
+      WORDPRESS_CONFIG_EXTRA: |
+        # Require SSL for admin and logins
+        define( 'FORCE_SSL_ADMIN', false );
+        # Disable plugin and theme update and installation
+        define( 'DISALLOW_FILE_MODS', false );
+        # Disable the plugin and theme editor
+        define( 'DISALLOW_FILE_EDIT', false );
+    volumes:
+      - type: volume
+        source: wordpress
+        target: /var/www/html
+      - type: bind
+        source: ./docker-uploads.ini
+        target: /usr/local/etc/php/conf.d/docker-uploads.ini
+      - type: bind
+        source: ./docker-servername.conf
+        target: /etc/apache2/conf-enabled/docker-servername.conf
+
+  db:
+    image: mysql:5.7
+    labels:
+      - "com.example.description=Example WordPress database"
+    restart: always
+    environment:
+      MYSQL_DATABASE: myblogdb
+      MYSQL_USER: wpinternal
+      MYSQL_PASSWORD: stencil-running-cargo-savage
+      MYSQL_RANDOM_ROOT_PASSWORD: "1"
+    volumes:
+      - type: volume
+        source: db
+        target: /var/lib/mysql
+      - type: bind
+        source: ./docker-fixes.cnf
+        target: /etc/mysql/conf.d/docker-fixes.cnf
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - target: 8080
+        published: 8070
+        protocol: tcp
+
+volumes:
+  wordpress:
+    labels:
+      - "com.example.description=WordPress install"
+  db:
+    labels:
+      - "com.example.description=MySQL datastore"
