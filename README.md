@@ -9,6 +9,10 @@
 
 This repository is a dump for code snippets and samples that in use by the articles at my website [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
 
+- `post_5160`
+
+  - _[Go Unicode random string generator](https://devtidbits.com/?p=5160)_
+
 - `post_5017`
 
   - _[Customise WordPress on Docker](https://devtidbits.com/?p=5017)_
