@@ -19,13 +19,15 @@ This repository is a dump for code snippets and samples that in use by the artic
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __1413__][1413] - _[Secure and harden Apache Tomcat’s SSL/TLS](https://devtidbits.com/2015/05/13/secure-and-harden-apache-tomcats-ssltls/)_
 
-[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __1226__][1226] - _[Make your Windows Command Prompt, Linux-like](https://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)_ _(previously 'Create A Better Windows Command-line Prompt')_
+[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __1226__][1226] - _[Make your Windows Command Prompt, Linux-like](https://devtidbits.com/2014/05/21/create-a-better-windows-command-line-prompt/)_ <br>
+_previously 'Create A Better Windows Command-line Prompt'_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __805__][805] - _[MAME Arcade Game Fun With A Raspberry Pi](https://devtidbits.com/2012/11/26/mame-arcade-game-fun-with-a-raspberry-pi/)_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __635__][635] - _[Tuckey URLRewrite How-To](https://devtidbits.com/2011/11/28/tuckey-urlrewrite-how-to/)_
 
-[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __590__][590] - _[Cygwin Walkthrough and Beginners Guide - Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?](https://devtidbits.com/2011/07/01/cygwin-walkthrough-and-beginners-guide-is-it-linux-for-windows-or-a-posix-compatible-alternative-to-powershell/)_
+[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __590__][590] - _[Cygwin Walkthrough and Beginners Guide](https://devtidbits.com/2011/07/01/cygwin-walkthrough-and-beginners-guide-is-it-linux-for-windows-or-a-posix-compatible-alternative-to-powershell/)_ <br>
+_Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __321__][321] - _[Secure Railo Administration (railo-context) On Your Railo Server.](https://devtidbits.com/2010/05/27/hide-block-and-secure-railo-context-from-your-railo-tomcat-jboss-resin-servers/)_
 
