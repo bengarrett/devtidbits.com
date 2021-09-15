@@ -1,3 +1,6 @@
+// Go Unicode random string generator
+// 10-Aug-2020
+// https://devtidbits.com/2020/08/10/go-unicode-random-string-generator/
 package main
 
 import (
@@ -5,8 +8,6 @@ import (
 	"fmt"
 	"log"
 )
-
-// Created for https://devtidbits.com/2020/08/10/go-unicode-random-string-generator/
 
 const random string = "🥺😂🥰😊😍😊😝🤗abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0987654321 .!?"
 
