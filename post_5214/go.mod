@@ -1,4 +1,4 @@
-module github.com/bengarrett/devtidbits.com/post_5214
+module github.com/bengarrett/devtidbits.com/tree/master/post_5214
 
 go 1.17
 
