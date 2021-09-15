@@ -7,7 +7,9 @@
 
 ## Sample code repository
 
-This repository is a dump for code snippets and samples that in use by the articles at my website [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
+This repository is a dump for code snippets and samples that are in use by the articles at my website, [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
+
+[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5214__][5214] - _[Center text in a terminal with Go](https://devtidbits.com/?p=5214)_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5160__][5160] - _[Go Unicode random string generator](https://devtidbits.com/?p=5160)_
 
@@ -33,6 +35,7 @@ _Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __42__][42] - _[Remove or Clean High / Extended ASCII Characters in ColdFusion for XML Safeness](https://devtidbits.com/2008/03/11/remove-or-clean-high-extended-ascii-characters-in-coldfusion-for-xml-safeness/)_
 
+[5214]: ../post_5214
 [5160]: ../post_5160
 [5017]: ../post_5017
 [3905]: ../post_3905
