@@ -79,24 +79,24 @@ func TestBinary_String(t *testing.T) {
 		{"-0 en", -0, en, "0"},
 		{"1 en", 1, en, "1"},
 		{"-1 en", -1, en, "-1"},
-		// Kilobytes
+		// Kibibytes
 		{"1k en", 1_024, en, "1.0\u00A0KiB"},
 		{"1k de", 1_024, de, "1,0\u00A0KiB"},
 		{"-1k en", -1_024, en, "-1.0\u00A0KiB"},
 		{"-1k de", -1_024, de, "-1,0\u00A0KiB"},
-		// Megabytes
+		// Mebibytes
 		{"1M en", 1_234_567, en, "1.18\u00A0MiB"},
 		{"1M de", 1_234_567, de, "1,18\u00A0MiB"},
-		// Gigabytes
+		// Gibibytes
 		{"1G en", 1_234_567_890, en, "1.15\u00A0GiB"},
 		{"1G de", 1_234_567_890, de, "1,15\u00A0GiB"},
-		// Terabytes
+		// Tebibytes
 		{"10T en", 9_843_234_567_890, en, "8.95\u00A0TiB"},
 		{"10T de", 9_843_234_567_890, de, "8,95\u00A0TiB"},
-		// Petabytes
+		// Pebibytes
 		{"1P en", 1_200_234_567_890_000, en, "1.07\u00A0PiB"},
 		{"1P de", 1_200_234_567_890_000, de, "1,07\u00A0PiB"},
-		// Exabytes
+		// Exbibytes
 		{"4E en", 5_000_000_234_567_890_000, en, "4.34\u00A0EiB"},
 		{"4E de", 5_000_000_234_567_890_000, de, "4,34\u00A0EiB"},
 		{"max int en", 9_223_372_036_854_775_807, en, "8.00\u00A0EiB"},

@@ -45,12 +45,13 @@ func main() {
 	en := language.English
 	de := language.German
 	fr := language.French
-	fmt.Println("🇬🇧", Decimal(n).String(en))
-	fmt.Println("🇬🇧", Binary(n).String(en))
-	fmt.Println("🇩🇪", Decimal(n).String(de))
-	fmt.Println("🇩🇪", Binary(n).String(de))
-	fmt.Println("🇫🇷", Decimal(n).String(fr))
-	fmt.Println("🇫🇷", Binary(n).String(fr))
+	fmt.Printf("%d bytes is equivalent to\n", n)
+	fmt.Println("🇬🇧 ", Decimal(n).String(en))
+	fmt.Println("🇬🇧 ", Binary(n).String(en))
+	fmt.Println("🇩🇪 ", Decimal(n).String(de))
+	fmt.Println("🇩🇪 ", Binary(n).String(de))
+	fmt.Println("🇫🇷 ", Decimal(n).String(fr))
+	fmt.Println("🇫🇷 ", Binary(n).String(fr))
 }
 
 func (n Decimal) String(t language.Tag) string {
