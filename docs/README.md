@@ -7,8 +7,11 @@
 
 ## Sample code repository
 
-This repository is a dump for code snippets and samples that are in use by the articles at my website,<br> [The Developer's Tidbits](https://www.devtidbits.com/).
-
+This repository is a dump for code snippets and samples that are in use by the articles at my website,
+**[The Developer's Tidbits](https://www.devtidbits.com/)**.
+<!--- 
+Do not forget to link the blog item number at the end of this doc 
+-->
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5351__][5351] - _[Create a Boolean Yes or No prompt in Go](https://devtidbits.com/?p=5351)_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5289__][5289] - _[Go byte units and localized formatting](https://devtidbits.com/?p=5289)_
@@ -39,6 +42,7 @@ _Is it Linux for Windows or a POSIX Compatible Alternative To PowerShell?_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __42__][42] - _[Remove or Clean High / Extended ASCII Characters in ColdFusion for XML Safeness](https://devtidbits.com/2008/03/11/remove-or-clean-high-extended-ascii-characters-in-coldfusion-for-xml-safeness/)_
 
+[5351]: ../post_5351
 [5289]: ../post_5289
 [5214]: ../post_5214
 [5160]: ../post_5160
