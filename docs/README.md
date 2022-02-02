@@ -7,7 +7,9 @@
 
 ## Sample code repository
 
-This repository is a dump for code snippets and samples that are in use by the articles at my website, [The Developer's Tidbits - Helpful tips for random problems](https://www.devtidbits.com/).
+This repository is a dump for code snippets and samples that are in use by the articles at my website,<br> [The Developer's Tidbits](https://www.devtidbits.com/).
+
+[<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5351__][5351] - _[Create a Boolean Yes or No prompt in Go](https://devtidbits.com/?p=5351)_
 
 [<img alt="Folder" width="20px" src="https://raw.githubusercontent.com/bengarrett/devtidbits.com/master/docs/folder.svg" /> __5289__][5289] - _[Go byte units and localized formatting](https://devtidbits.com/?p=5289)_
 
