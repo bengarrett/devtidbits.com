@@ -9,9 +9,8 @@
 
 This repository is a dump for code snippets and samples that are in use by the articles at my website,
 **[The Developer's Tidbits](https://www.devtidbits.com/)**.
-<!--- 
-Do not forget to link the blog item number at the end of this doc 
--->
+
+![The Developer's Tidbits website screen](website.png)
 
 | Files  | Language | Title |
 | -- | -- | -- |
